@@ -1,0 +1,46 @@
+    p {
+    font-size: 20px;
+    }
+  table {
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  caption {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  thead {
+    background-color: #f2a65a; /* màu header khác */
+    color: white;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* hàng chẵn màu sáng */
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* hàng lẻ màu trắng */
+  }
+
+  tbody tr:hover {
+    background-color: #e1f5fe; /* hover đổi màu cho chuyên nghiệp */
+  }
+
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
