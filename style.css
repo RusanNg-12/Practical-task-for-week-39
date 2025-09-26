@@ -1,9 +1,17 @@
-    p {
+  body {
+    padding-left: 200px;
+    max-width: 960px;
+ } 
+  h1, h2  {
+    color: #075f04;
+
+  }
+  p {
     font-size: 20px;
     }
   table {
     width: 60%;
-    margin: 20px auto;
+    margin: 20px 0;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
@@ -11,36 +19,32 @@
 
   caption {
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
 
   th, td {
     border: 1px solid black;
-    padding: 8px;
+    padding: 12px;
+    text-align: center;
   }
 
   thead {
-    background-color: #f2a65a; /* màu header khác */
+    background-color: #ff7e0d;
     color: white;
   }
 
   tbody tr:nth-child(even) {
-    background-color: #f9f9f9; /* hàng chẵn màu sáng */
+    background-color: #d7d7d6; /
   }
 
   tbody tr:nth-child(odd) {
-    background-color: #ffffff; /* hàng lẻ màu trắng */
+    background-color: #ffffff;
   }
 
   tbody tr:hover {
-    background-color: #e1f5fe; /* hover đổi màu cho chuyên nghiệp */
+    background-color: #e1f5fe;
   }
 
   a {
-    color: blue;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
+    font-style: italic;
   }
