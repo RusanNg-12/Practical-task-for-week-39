@@ -1,11 +1,12 @@
   body {
     padding-left: 200px;
     max-width: 960px;
- } 
+  } 
+
   h1, h2  {
     color: #075f04;
-
   }
+
   p {
     font-size: 20px;
     }
